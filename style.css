@@ -1,3 +1,7 @@
+*{
+    font-family: 'Bubbler One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
 body{
     background-color: #E2CFB8;
     font-family: 'Bubbler One', sans-serif;
@@ -86,6 +90,7 @@ body{
 }
 .procedurescreen li img{
     transition: 0.2s;
+    border-radius: 9%;
 }
 .procedurescreen li img:hover{
     transform: scale(1.2);
@@ -155,6 +160,7 @@ body{
     margin-bottom: 30px;
     background-color: #4F3328;
     color: white;
+    border-radius: 18px;
 }
 .procedurescreen a:link{
     color: white;   
