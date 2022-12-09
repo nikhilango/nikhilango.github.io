@@ -12,6 +12,23 @@ body{
     text-align: center;
     font-size: 60px;
     margin-top: 5%;
+    animation: ani2 2s ease-out forwards;
+    font-weight: bold;
+    opacity: 0;
+}
+.welcomescreen p{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40%;
+    animation: ani2 2s ease-out 2s forwards;
+    font-weight: bold;
+    opacity: 0;
+}
+@keyframes ani2{
+    100%{
+        opacity: 1;
+    }
 }
 .welcomescreen{
     background-image: url("/images/chococake.jpeg");
@@ -77,6 +94,7 @@ body{
 }
 .procedurescreen h1{
     color: #4F3328;
+    padding-bottom: 100px;
 }
 .procedurescreen ol{
     color: #4F3328;
@@ -86,7 +104,7 @@ body{
 }
 
 .procedurescreen li{
-    padding-bottom: 40%;
+    padding-bottom: 300px;
 }
 .procedurescreen li img{
     transition: 0.2s;
